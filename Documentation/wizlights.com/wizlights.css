@@ -1,0 +1,117 @@
+.tableshows {
+  border-collapse: collapse;
+  border: 1px DarkSlateGray;
+  cellspacing ="0";
+  cellpadding ="0";
+}
+
+.pagehead {
+  color: #ffd800;
+  font-size: xx-large;
+  font-style: italic;
+}
+
+.areahead {
+  color: #00ffff;
+  font-size: x-large;
+  font-style: normal;
+  text-decoration: underline;
+  border-collapse: collapse;
+  border: 1px DarkSlateGray;
+  cellspacing ="0";
+  cellpadding ="0";
+}
+
+.showhead {
+  color: #ffffff;
+  font-size: x-large;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  border-collapse: collapse;
+  border: 1px DarkSlateGray;
+  cellspacing ="0";
+  cellpadding ="0";
+}
+
+.address {
+  color: #4cff00;
+  font-size: large;
+  font-style: normal;
+  text-decoration: none;
+  border-collapse: collapse;
+  border: 1px DarkSlateGray;
+  cellspacing ="0";
+  cellpadding ="0";
+}
+
+.directions {
+  color: #4cff00;
+  font-size: large;
+  font-style: normal;
+  text-decoration: none;
+  border-collapse: collapse;
+  border: 1px DarkSlateGray;
+  cellspacing ="0";
+  cellpadding ="0";
+}
+
+.info {
+  color: #ff0000;
+  font-size: medium;
+  font-style: normal;
+  text-decoration: none;
+  border-collapse: collapse;
+  border: 1px DarkSlateGray;
+  cellspacing ="0";
+  cellpadding ="0";
+}
+
+.hours {
+  color: #ff6a00;
+  font-size: medium;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.station {
+  color: #ff6a00;
+  font-size: medium;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.website {
+  color: #ffd800;
+  font-size: medium;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.weburl {
+  color: #ffd800;
+  font-size: medium;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.facebook {
+  color: #ffd800;
+  font-size: medium;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.faceurl {
+  color: #ffd800;
+  font-size: medium;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.footer {
+  color: #b200ff;
+  font-size: medium;
+  font-style: normal;
+  text-decoration: none;
+}

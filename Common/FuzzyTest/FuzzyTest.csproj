@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows10.0.19041.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Copyright>Copyright © 2022+ by Doctor Wizard 🧙 and W⚡zlights Software</Copyright>
+		<AssemblyName>Fuzz-O-Rama</AssemblyName>
+		<PlatformTarget>x64</PlatformTarget>
+		<ProductName>Fuzz-O-Rama</ProductName>
+		<PublisherName>W⚡zlights Software</PublisherName>
+		<SuiteName>Util-O-Rama</SuiteName>
+		<ApplicationRevision>0</ApplicationRevision>
+		<ApplicationVersion>4.0.0.%2a</ApplicationVersion>
+		<PackageTags>Util-O-Rama; Fuzzy; String; Matching; Levenshtein; Sorensen-Dice; Damerau; Light-O-Rama; Christmas; Sequences; Lighting</PackageTags>
+		<Description>Blank stub for creating new Util-O-Rama programs.</Description>
+		<IsPublishable>False</IsPublishable>
+		<ApplicationIcon>Fuzzy.ico</ApplicationIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="desktop.ini" />
+	  <None Remove="FuzzORamaError2022-05-20.log" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="Fuzzy.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\FuzzORama\FuzzORama.csproj" />
+	</ItemGroup>
+
+</Project>

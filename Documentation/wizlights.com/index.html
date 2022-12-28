@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<!-- Page information for SEO and indexing -->
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="author" content="Doctor Wizard" />
+	<meta name="copyright" content="Copyright © 2022+ by Doctor Wizard 🧙 and W⚡zlights" />
+	<meta name="description" content="Doctor Wizard's Giant Musical Holiday Light Show (Wizlights)"/>
+	<meta name="keywords" content="Synchronized Christmas Lights, xLights, Sequences, Wizlights, Doctor Wizard, Holiday, Light Show"/>
+	<meta name="owner" content="Doctor Wizard" />
+	<meta name="robots" content="index,follow"/>
+
+	<!-- * TITLE * -->
+	<title>
+		Doctor Wizard's Giant Musical Holiday Light Show
+	</title>
+
+	<!-- Facebook and Twitter -->
+	<meta name="description" content="Doctor Wizard's Giant Musical Holiday Light Show (Wizlights)"/>
+	<meta property="og:image" content="wizlights.png" />
+	<meta property="og:image:height" content="128" />
+	<meta property="og:image:width" content="128" />
+	<meta property="og:image:type" content="image/png" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:publisher" content="https://facebook.com/wizlights" />
+	<meta property="og:site_name" content="Wizlights - Util-O-Rama" />
+	<meta property="og:title" content="Doctor Wizard's Giant Musical Holiday Light Show (Wizlights)" />
+	<meta property="og:type" content="article:tag help" />
+	<meta property="og:url" content="https://wizlights.com/index.html" />
+	<meta property="twitter:card" content="Wizlights" />
+	<meta property="twitter:description" content="Doctor Wizard's Giant Musical Holiday Light Show (Wizlights)"/>
+	<meta property="twitter:title" content="Doctor Wizard's Giant Musical Holiday Light Show" />
+	<meta property="twitter:url" content="https://wizlights.com/index.html" />
+
+	<!-- favicon in a zillion sizes for every platform -->
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#000000">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#000000">
+		
+	<!-- Stub last updated 2022-07-25 -->
+	<!-- Title, Description, Tags, etc. last updated 2022-07-25 -->
+  	<style type="text/css">	.auto-style1 {text-align: center;} 
+    .auto-style2 {
+      text-decoration: underline;
+    }
+    .auto-style3 {
+      text-decoration: underline;
+      color: #333399;
+    }
+    .auto-style4 {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  </style>
+
+</head>
+
+<body style="background-color:black; color:white; forground-color:white;">
+
+<p class="auto-style5">
+<table align="center" cellpadding="0" cellspacing="0" style="width: 100%; height: 100%;">
+		<tr>
+		<img alt="" height="100%" src="images/showbegins.svg" width="90%" /></tr>
+		<tr>
+<p id="demo" class="CountDown" align="center" color="red" font-size="x-large">Now Showing</p>
+		</tr>
+</table>
+
+
+<!-- Display the countdown timer in an element -->
+<script>
+	// Set the date we're counting down to
+	//var countDownDate = new Date("Nov 24, 2018 18:00:00").getTime();
+	//var countDownDate = new Date("Dec 24, 2018 23:59:59").getTime();
+	
+	var countDownDate = new Date("Dec 1, 2022 18:00:00").getTime();
+	var myDemo = document.getElementById("demo");
+	myDemo.innerHTML = "";
+	
+	// Update the count down every 1 second
+	var x = setInterval(
+		function() 
+		{
+			// Get todays date and time
+  		var now = new Date().getTime();
+
+  		// Find the distance between now an the count down date
+  		var distance = countDownDate - now;
+
+			if (distance > 0) {
+				// Time calculations for days, hours, minutes and seconds
+				var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+				var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+				var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+				var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+				// Display the result in the element with id="demo"
+				// Time until show starts (before Nov 30th)
+				document.getElementById("demo").innerHTML = "(That's just " + days + " days, " + hours + " hours, " + minutes + " minutes, and " + seconds + " seconds) ";
+			}
+  			// If the start day is passed, and show is running
+				// Show the time until the next show starts this evening
+			if (distance < 0) {
+				var showtime = new Date("18:00:00").getTime();
+				var startamt = showtime - now;
+				var hours = Math.floor((showamt % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+				var minutes = Math.floor((showamt % (1000 * 60 * 60)) / (1000 * 60));
+				var seconds = Math.floor((showamt % (1000 * 60)) / 1000);
+				document.getElementById("demo").innerHTML = "(That's just " + hours + " hours, " + minutes + " minutes, and " + seconds + " seconds) ";
+			}
+ 		}
+	, 1000); // End of var x = setInterval(  approx 20 lines above
+</script>
+
+
+<br>
+<img alt="" src="images/website.svg" class="auto-style14"  width="100%" /><br>
+</p>
+<p class="auto-style13">
+<a href="map.html">Map</a></p>
+<p class="auto-style5">
+    
+	<p class="AltGreenLine">Some links for all you Holiday lovers.&nbsp; Each of these links will 
+	lead you to even more links:</p>
+<p>
+<a href="https://www.youtube.com/results?search_query=musical+christmas+light+show">
+<span class="AltRedLine">YouTube</span></a><span class="AltRedLine"> videos of musical holiday light shows</span></p>
+
+<p><span class="AltGreenLine"> List of other <a href="localshows.html">local First Coast Holiday Light Shows...</a></span></p>
+
+<p><span class="AltGreenLine">If you run a website somehow relating to musical Christmas lights and would 
+like to be listed here,
+</span>
+<a href="mailto:wizard@wizlights.com?subject=WizLights Website Comment">
+<span class="AltGreenLine">email me</span></a>.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+	
+</body>
+
+</html>

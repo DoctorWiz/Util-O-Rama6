@@ -1,0 +1,21 @@
+[assembly: Guid("23860f4e-7311-4888-a6ac-50904a2cb3xx")]
+WHERE:
+00 = Blank-O-Rama
+01 = Channel-O-Rama
+02 = Compare-O-Rama
+03 = Dim-O-Rama
+04 = Flip-O-Rama
+05 = InfO-Rama
+06 = Launch-O-Rama
+07 = Map-O-Rama
+08 = Merge-O-Rama
+09 = RGB-O-Rama
+0a = Sort-O-Rama
+0b = Sparkle-O-Rama
+0c = Split-O-Rama
+0d = Time-O-Rama
+0e = Vamp-O-Rama
+0f = Select-O-Rama (or Explore-O-Rama)
+10-1f = Not yet assigned, available
+20 = Fuzz-O-Rama
+

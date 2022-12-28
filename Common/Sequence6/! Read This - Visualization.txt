@@ -1,0 +1,15 @@
+! Read This about Visualations:
+
+Most of the Util-O-Rama programs do NOT use the Visualizer classes, but parts
+of the Sequence classes refer to it.
+
+So for Util-O-Rama programs (most of them) that don't need Visualizer, include
+the Viz4Stub.cs class in the project along with all the Sequencer classes,
+but do NOT Visualization4, VisChannel, VizGroup, or VizDrawObject.
+
+For Util-O-Rama programs which DO use Visualizer include all 4 of the
+Visualizer classes (Visualizer4, VizChannel, VizGroup, and VizDrawObject)
+and NOT Viz4Stub.cs.
+
+As of 5/16/22, I think the only Util-O-Rama programs that use Visualizer are
+Channel-O-Rama, Compare-O-Rama, and InfO-Rama.

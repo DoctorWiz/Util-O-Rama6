@@ -1,0 +1,72 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+		<ApplicationIcon>FuzzORama.ico</ApplicationIcon>
+		<ApplicationRevision>0</ApplicationRevision>
+		<ApplicationVersion>4.0.0.%2a</ApplicationVersion>
+		<!-- Superceded by Assembly Title? -->
+		<AssemblyName>FuzzORama</AssemblyName>
+		<AssemblyTitle>FuzzORama</AssemblyTitle>
+		<AssemblyVersion>4.6.0.%2a</AssemblyVersion>
+		<Authors>Doctor 🧙 Wizard</Authors>
+		<Company>W⚡zlights Software</Company>
+		<Copyright>Copyright © 2022+ by Doctor Wizard 🧙 and W⚡zlights Software</Copyright>
+		<CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+		<Description>Performs fuzzy matching between strings and returns a similarity score.</Description>
+		<FileVersion>4.6.0.%2a</FileVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<InformationalVersion>4.6.0.%2a</InformationalVersion>
+		<InstallUrl>http://wizlights.com/utilorama/download/</InstallUrl>
+		<IsPublishable>False</IsPublishable>
+		<Nullable>enable</Nullable>
+		<PackageIcon>FuzzORama.png</PackageIcon>
+		<PackageID>FuzzORama</PackageID>
+		<PackageProjectUrl>http://wizlights.com/utilorama/default.html</PackageProjectUrl>
+		<PackageTags>String; Fuzzy; Matching; Scoring; Similarity; Sorenson; Levenshtein</PackageTags>
+		<PlatformTarget>x64</PlatformTarget>
+		<ProductName>FuzzORama</ProductName>
+		<PublisherName>W⚡zlights Software</PublisherName>
+		<PublishUrl>ftp://wizlights.com/utilorama/download/</PublishUrl>
+		<RootNamespace>FuzzORama</RootNamespace>
+		<RepositoryUrl>https://github.com/DoctorWiz/Util-O-Rama4/tree/master/Common/FuzzORama</RepositoryUrl>
+		<SuiteName>Util-O-Rama</SuiteName>
+		<SupportUrl>http://wizlights.com/utilorama/fuzzorama/default.html</SupportUrl>
+		<TargetFramework>net6.0-windows10.0.19041.0</TargetFramework>
+		<Version>4.6.0.2</Version>
+		<WebPage>http://wizlights.com/utilorama/fuzzorama/default.html</WebPage>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="desktop.ini" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="FuzzORama.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+	<!--
+	<ItemGroup>
+	  <PackageReference Include="System.Collections.Immutable" Version="6.0.0" />
+	</ItemGroup>
+	-->
+
+	<ItemGroup>
+		<None Update="FuzzORama.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>

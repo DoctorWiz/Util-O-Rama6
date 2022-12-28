@@ -1,0 +1,23 @@
+  Util-O-Rama Suite
+  Copyright © 2021+ by Doctor 🧙 Wizard
+  and W⚡zlights Software.
+	
+The Util-O-Rama suite is not a product of nor endorsed in any way by The
+Light-O-Rama company or the xLights organization.  This is purely the work of
+Doctor 🧙 Wizard and W⚡zlights Software.  Please do not contact Light-O-Rama
+or xLights for support regarding the Util-O-Rama applications.
+
+The Util-O-Rama suite may corrupt or incorrectly write sequence or other data
+files used by Light-O-Rama Showtime and/or xLights.  Please do not contact
+Light-O-Rama or xLights for support regarding any files which may have been
+touched or manipulated by Util-O-Rama.
+
+Util-O-Rama is alpha software!  It is absolutely positively unconditionally
+guaranteed to contain many serious bugs!  Using Util-O-Rama could possibly
+cause climate change and global warming, global pandemics, political unrest,
+meteor strikes, wildfires, hurricanes and tornados, pimples, weight gain,
+stress and panic attacks, and/or explosive diarrhea.
+Under no circumstances whatsoever should you expect Util-O-Rama to correctly
+write or modify your sequence files.  Be sure to keep multiple back-ups and
+never ever overwrite your working sequences with those modified by 
+Util-O-Rama.
